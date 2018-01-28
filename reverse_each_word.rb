@@ -1,3 +1,12 @@
 def reverse_each_word(string)
-  string.reverse
+  words = string.split(" ")
+  new_sentence = []
+  words.each do |word|
+  end_loop = word.length
+  new_string = ''
+  while end_loop > 0 
+    end_loop -= 1
+    new_string += word[end_loop]
+  end
+  new_sentence.join(' ')
 end
