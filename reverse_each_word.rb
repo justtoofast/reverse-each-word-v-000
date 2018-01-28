@@ -8,5 +8,6 @@ def reverse_each_word(string)
       end_loop -= 1
       new_string += word[end_loop]
     end
+    new_sentence << new_string
   new_sentence.join(' ')
 end
